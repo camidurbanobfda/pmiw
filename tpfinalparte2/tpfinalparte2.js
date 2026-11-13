@@ -12,15 +12,8 @@ function setup() {
 
 
 function draw() {
-  background(78, 148, 48);
+  background(255);
   
-  if(juego.perder === true){
-  juego.finMalo();
-  return;
-}else{
-  juego.dibujar();
-  juego.controlarAreaPizza();
-  juego.dibujarCaidaPizza();
-  juego.sumarPunto();
-}
+juego.cambiarPantallas();
+
 }

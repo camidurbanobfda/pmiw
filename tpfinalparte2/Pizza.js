@@ -14,6 +14,14 @@ dibujar(){
   stroke(219,162,74);
   fill(225,216,0);
   rect(this.posX, this.posY, this.anchoActual, 100);
+  fill(255, 0, 0);
+  strokeWeight(2);
+  stroke(102, 0, 0);
+  circle(this.posX + this.anchoActual * 0.20, this.posY + 15, 10);
+  circle(this.posX + this.anchoActual * 0.25, this.posY + 60, 10);
+  circle(this.posX + this.anchoActual * 0.55, this.posY + 45, 10);
+  circle(this.posX + this.anchoActual * 0.80, this.posY + 30, 10);
+  circle(this.posX + this.anchoActual * 0.70, this.posY + 75, 10);
 }
 
 caida(){
